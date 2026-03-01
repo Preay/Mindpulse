@@ -1,0 +1,14 @@
+{
+  "name": "@mindpulse/shared-types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types for MindPulse",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
