@@ -12,7 +12,7 @@ export async function createApp(): Promise<FastifyInstance> {
 
   // Security middleware
   await app.register(fastifyHelmet, {
-    contentSecurityPolicy: false,
+    contentSecurityPolicy: true,
   });
 
   // CORS
